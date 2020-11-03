@@ -1,0 +1,23 @@
+{
+  "name": "sergeich5/telegram-api",
+  "description": "Telegram API SDK",
+  "type": "library",
+  "version": "1.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "sergeich5",
+      "email": "arabyi@ya.ru"
+    }
+  ],
+  "autoload": {
+    "classmap": ["src/"]
+  },
+  "require": {
+    "php": ">=7.4",
+    "ext-json": "*",
+    "ext-mysqli": "*",
+    "ext-curl": "*",
+    "vkcom/vk-php-sdk": "^5.101"
+  }
+}
