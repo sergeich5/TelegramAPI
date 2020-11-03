@@ -17,7 +17,6 @@
     "php": ">=7.4",
     "ext-json": "*",
     "ext-mysqli": "*",
-    "ext-curl": "*",
-    "vkcom/vk-php-sdk": "^5.101"
+    "ext-curl": "*"
   }
 }
